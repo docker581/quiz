@@ -6,7 +6,6 @@ import {fetchQuizes} from '../../store/actions/quizAction'
 
 class QuizList extends Component {
     renderQuizes = () => {
-        console.log('QUIZLIST', this.props.quizes);
         return this.props.quizes.map((quiz) => {
             return (
                 <NavLink
